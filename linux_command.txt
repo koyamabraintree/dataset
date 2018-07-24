@@ -1,0 +1,11 @@
+# delete line horizontaly
+cat DD_A.txt | tr -d "[:blank:]" > DDedges
+
+
+# replace , with a space
+tr ',' ' '
+
+# Add line number to the front of each line
+awk '{print NR," " $0}' file
+
+
