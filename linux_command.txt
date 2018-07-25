@@ -1,4 +1,4 @@
-# delete line horizontaly
+# delete spaces in a line horizontaly
 cat DD_A.txt | tr -d "[:blank:]" > DDedges
 
 
